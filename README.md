@@ -51,6 +51,15 @@ npm run build
 npm run preview
 ```
 
+## 🌐 Публикация (GitHub Pages)
+
+Проект настроен на автодеплой в GitHub Pages при пуше в ветку `main`.
+
+1. В репозитории GitHub откройте Settings → Pages
+2. В разделе Build and deployment выберите Source: GitHub Actions
+3. После пуша дождитесь завершения workflow `Deploy to GitHub Pages`
+4. Откройте сайт по адресу: `https://galfdesign.github.io/smeta/`
+
 ## 📊 Структура проекта
 
 ```
